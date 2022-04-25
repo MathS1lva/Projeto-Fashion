@@ -1,0 +1,173 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#div_principal{
+    width: 1024px;
+    margin: 0px auto;
+}
+.header{
+    height: 50px;
+    background: #162028;
+    position: relative;
+    
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.header_nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header_nav ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.header_nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 15px 0 0;
+    padding: 14px;
+}
+.header_nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+.header_nav a:hover{
+    color: white;
+}
+.portifolio{
+    padding: 50px 100px;
+    text-align: center;    
+}
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555
+}
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    background: red;
+    overflow: auto;
+    position: static;
+    
+}
+.gallery_card{
+    width: 32%;
+    float: left;
+    text-align: center;
+    position: static;
+    
+}
+.gallery_title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: auto;
+    position: relative;
+    top: 50px;
+}
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+#contact{
+    margin: 85px 0;    
+}
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    
+}
+.maps iframe{
+    width: 100%
+}
+.rodape{
+    background: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.photo_gallery:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+.photo_gallery{
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
