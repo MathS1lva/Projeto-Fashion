@@ -5,7 +5,7 @@ body{
 }
 #div_principal{
     width: 1024px;
-    margin: 0px auto;
+    margin: -80px auto 10px;
 }
 .header{
     height: 50px;
@@ -30,7 +30,7 @@ body{
 .header_nav li{
     list-style: none;
     display: inline-block;
-    margin-right: 0 15px 0 0;
+    margin: 0 15px 0 0;
     padding: 14px;
 }
 .header_nav a{
